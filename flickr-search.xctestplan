@@ -1,0 +1,35 @@
+{
+  "configurations" : [
+    {
+      "id" : "96B2CBCD-DFE7-4337-AB1D-6CF2934B91B3",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "performanceAntipatternCheckerEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:flickr-search.xcodeproj",
+      "identifier" : "D8A0701E2F37CAA700F7149E",
+      "name" : "flickr-search"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "skippedTests" : [
+        "flickr_searchTests",
+        "flickr_searchTests\/testExample()",
+        "flickr_searchTests\/testPerformanceExample()"
+      ],
+      "target" : {
+        "containerPath" : "container:flickr-search.xcodeproj",
+        "identifier" : "D8A0702B2F37CAB000F7149E",
+        "name" : "flickr-searchTests"
+      }
+    }
+  ],
+  "version" : 1
+}
